@@ -287,7 +287,7 @@ footer {
 
 
 .div-skills {
-  width: 33%;
+  width: 35%;
   background: #F4F1F0;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   text-align: center;
@@ -301,6 +301,7 @@ footer {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  padding: 1%;
 }
 
 
