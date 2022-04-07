@@ -12,6 +12,12 @@ a {
 }
 
 
+a:visited {
+  text-decoration: none;
+  color: #333333;
+}
+
+
 header {
   position: fixed;
   background-color: white;
@@ -69,6 +75,7 @@ ul {
   color: #333333;
 }
 
+
 .Manvir {
   position: absolute;
   width: 550px;
@@ -80,6 +87,7 @@ ul {
   line-height: 150px;
   color: #333333;
 }
+
 
 .career-name {
   position: absolute;
@@ -94,6 +102,7 @@ ul {
   color: #333333;
 }
 
+
 .my-intro {
   position: absolute;
   width: 647px;
@@ -107,34 +116,32 @@ ul {
   color: #333333;
 }
 
+
+.btn-style {
+  background: #D4C5B8;
+  border-radius: 10px;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+  padding: 1%;
+}
+
+
 .button1 {
   position: absolute;
-  width: 300px;
-  height: 75px;
   left: 100px;
   top: 707px;
-  background: #D4C5B8;
-  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
-  border: 0;
-  letter-spacing: 5px;
-  font-size: 24px;
-  font-weight: 500;
 }
+
 
 .button2 {
   position: absolute;
-  width: 300px;
-  height: 75px;
   left: 450px;
   top: 707px;
-  background: #D4C5B8;
-  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
-  border: 0;
-  letter-spacing: 5px;
-  font-size: 24px;
-  font-weight: 500;
+}
+
+
+.button-hover:hover {
+  background-color: #A29289;
+  color: white;
 }
 
 
@@ -166,6 +173,7 @@ ul {
 
 }
 
+
 .Project {
   position: relative;
   display: grid;
@@ -176,9 +184,19 @@ ul {
   margin-bottom: 8em;
 }
 
+
 .content {
   text-align: left;
   width: 25em;
+}
+
+
+.back-top {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  display: none;
+  padding: 50px;
 }
 
 
@@ -196,6 +214,7 @@ footer {
   border: 2px solid #333333;
 }
 
+
 .aboutMe {
   margin-bottom: 10%;
 }
@@ -207,6 +226,7 @@ footer {
   height: auto;
   margin-top: 218px;
 }
+
 
 .aboutmeTitle {
   position: absolute;
@@ -232,6 +252,7 @@ footer {
   margin-bottom: 8em;
 }
 
+
 .content-myinfo {
   position: relative;
   margin-top: 200px;
@@ -241,6 +262,7 @@ footer {
   color: #333333;
   margin-left: 10%;
 }
+
 
 .MyUXSkills {
   position: relative;
@@ -255,13 +277,14 @@ footer {
   color: #333333;
 }
 
+
 .SkillsflexContainer {
   display: flex;
   flex-direction: row;
   padding: 0px 20% 0px 20%;
-  margin: auto;
-  
+  margin: auto; 
 }
+
 
 .div-skills {
   width: 33%;
@@ -288,6 +311,7 @@ h3 {
   text-transform: uppercase;
   color: #333333;
 }
+
 
 .p-skills {
   font-weight: 300;
